@@ -5,9 +5,11 @@ class Main {
     Scanner ojoj = new Scanner(System.in);
     while(true){
     System.out.println("Podaj Liczbe a");
-    int a = ojoj.nextInt();
+    int x= ojoj.nextInt();
     System.out.println("Podaj Liczbe b");
-    int b = ojoj.nextInt();
+      int y= ojoj.nextInt();
+      int a = (int) Math.pow(x, y);
+    int b = (int) Math.pow(y, x);
     System.out.println("Wynik: " + (a + b));
 
     }
